@@ -12,6 +12,6 @@ resource "aws_vpc" "3es-learning" {
   
     tags = {
     user_name = var.tag_user_name
-	project = var.project_name
+	project = var.tag_project_name
   }
 }
