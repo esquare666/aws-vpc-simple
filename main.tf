@@ -11,7 +11,7 @@ resource "aws_vpc" "esquare" {
   enable_dns_hostnames = true
   
     tags = {
-	Name = esquare-vpc
+	Name = "esquare"
         user_name = var.tag_user_name
 	project = var.tag_project_name
   }
