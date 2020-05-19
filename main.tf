@@ -6,7 +6,7 @@ provider "aws" {
 }
 
 # Create a VPC
-resource "aws_vpc" "3es-learning" {
+resource "aws_vpc" "esquare-learning" {
   cidr_block = "10.0.0.0/16"
   enable_dns_hostnames = true
   
